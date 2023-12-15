@@ -22,6 +22,12 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//a[text()='Login']")
     WebElement lnkLogin;
 
+    @FindBy(css = "input[name='search']")
+    WebElement txtSearch;
+
+    @FindBy(css = "button[class='btn btn-default btn-lg']")
+    WebElement btnSearch;
+
     //Actions
     public void clickMyAccount() {
         wait.until(ExpectedConditions.visibilityOf(lnkMyAccount)).click();
@@ -33,5 +39,13 @@ public class HomePage extends BasePage {
 
     public void clickLogin() {
         wait.until(ExpectedConditions.visibilityOf(lnkLogin)).click();
+    }
+
+    public void searchItems(String item) {
+        txtSearch.sendKeys(item);
+    }
+
+    public void clickSearchBtn() {
+        btnSearch.click();
     }
 }
