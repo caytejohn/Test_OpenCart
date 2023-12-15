@@ -25,14 +25,15 @@ public class BaseClass extends CommonMethods {
 
         switch (browser) {
             case "chrome" -> {
-                ChromeOptions options = new ChromeOptions();
+                /* ChromeOptions options = new ChromeOptions();
                 options.addArguments("--incognito ");
                 options.addArguments("--headless=new");
                 options.addArguments("--allow-insecure-localhost");
                 options.addArguments("--disable-gpu");
                 options.addArguments("--window-size=1280,800");
                 options.setCapability("acceptInsecureCerts", true);
-                driver = new ChromeDriver(options);
+                 */
+                driver = new ChromeDriver();
                 logger.info("Opening the Chrome browser");
             }
             case "edge" -> {
