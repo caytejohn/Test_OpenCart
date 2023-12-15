@@ -24,7 +24,7 @@ public class SearchPage extends BasePage {
     @FindBy(xpath = "//button[@id='button-cart']")
     WebElement btnAddToCart;
 
-    @FindBy(xpath = "//div[@class='alert alert-success alert-dismissible']")
+    @FindBy(xpath = "//div[contains(text(), 'Success: You have added ')]")
     WebElement msgSuccessAddToCart;
 
     // Action Methods
@@ -42,7 +42,7 @@ public class SearchPage extends BasePage {
     public void selectItem(String itemName) {
         for (WebElement product : resultProducts) {
             if (product.getAttribute("title").equals(itemName)) {
-                wait.until(ExpectedConditions.visibilityOf(product)).click();
+                product.click();
             }
         }
     }
@@ -58,7 +58,7 @@ public class SearchPage extends BasePage {
 
     public boolean isMsgSuccessAddToCartIsDisplayed () {
         try {
-            return msgSuccessAddToCart.isDisplayed();
+            return wait.until(ExpectedConditions.visibilityOf(msgSuccessAddToCart)).isDisplayed();
         }
         catch (Exception e) {
             return false;
