@@ -12,6 +12,7 @@
             <class name="com.opencart.customer.TestCases.LoginTest"/>
             <class name="com.opencart.customer.TestCases.SearchProductTest"/>
             <class name="com.opencart.customer.TestCases.AddToCartTest"/>
+            <class name="com.opencart.customer.TestCases.EndToEndTest"/>
          </classes>
      </test>
  </suite>
