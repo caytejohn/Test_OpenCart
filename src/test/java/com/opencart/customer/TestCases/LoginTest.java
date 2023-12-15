@@ -33,7 +33,8 @@ public class LoginTest extends BaseClass {
 
             logger.info("Validating if logged in successfully");
             Assert.assertTrue(myAccount.isMyAccountDisplayed());
-        } catch (Exception e){
+        }
+        catch (Exception e){
             logger.error("Testing has an exception error");
             Assert.fail();
         }
