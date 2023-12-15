@@ -1,35 +1,38 @@
-15-12-2023 15:37:00 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - Opening the Chrome browser
-15-12-2023 15:37:01 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - Load http://localhost/opencart/upload/
-15-12-2023 15:37:01 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - Starting testing for success account registration
-15-12-2023 15:37:01 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - User clicked on my account link
-15-12-2023 15:37:01 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - User clicked on register link
-15-12-2023 15:37:01 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - User provided first name
-15-12-2023 15:37:01 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - User provided last name
-15-12-2023 15:37:01 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - User provided email address
-15-12-2023 15:37:01 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - User provided telephone number
-15-12-2023 15:37:01 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - User provided password
-15-12-2023 15:37:01 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - User provided matched password
-15-12-2023 15:37:02 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - User checked privacy policy
-15-12-2023 15:37:04 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - User clicked continue button
-15-12-2023 15:37:04 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - Validating if account has been successfully created
-15-12-2023 15:37:04 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - Finished testing for success account registration
-15-12-2023 15:37:04 [main] INFO  com.opencart.customer.TestCases.AccountRegistrationTest - Closed browsers
-15-12-2023 15:37:05 [main] INFO  com.opencart.customer.TestCases.LoginTest - Opening the Chrome browser
-15-12-2023 15:37:05 [main] INFO  com.opencart.customer.TestCases.LoginTest - Load http://localhost/opencart/upload/
-15-12-2023 15:37:05 [main] INFO  com.opencart.customer.TestCases.LoginTest - Starting testing for success login
-15-12-2023 15:37:05 [main] INFO  com.opencart.customer.TestCases.LoginTest - User clicked on my account link
-15-12-2023 15:37:05 [main] INFO  com.opencart.customer.TestCases.LoginTest - User clicked on my login link
-15-12-2023 15:37:05 [main] INFO  com.opencart.customer.TestCases.LoginTest - User input email address
-15-12-2023 15:37:05 [main] INFO  com.opencart.customer.TestCases.LoginTest - User input password
-15-12-2023 15:37:06 [main] INFO  com.opencart.customer.TestCases.LoginTest - User clicked on login button
-15-12-2023 15:37:06 [main] INFO  com.opencart.customer.TestCases.LoginTest - Validating if logged in successfully
-15-12-2023 15:37:06 [main] INFO  com.opencart.customer.TestCases.LoginTest - Finished testing for success login
-15-12-2023 15:37:06 [main] INFO  com.opencart.customer.TestCases.LoginTest - Closed browsers
-15-12-2023 15:37:07 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Opening the Chrome browser
-15-12-2023 15:37:07 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Load http://localhost/opencart/upload/
-15-12-2023 15:37:07 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Starting testing for search item
-15-12-2023 15:37:07 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Input item name on search box
-15-12-2023 15:37:08 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Clicked search button
-15-12-2023 15:37:08 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Validating if the item exists
-15-12-2023 15:37:08 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Finished testing for search item
-15-12-2023 15:37:08 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Closed browsers
+15-12-2023 18:43:34 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Input item name on search box
+15-12-2023 18:43:34 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Clicked search button
+15-12-2023 18:43:34 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Validating if the item exists
+15-12-2023 18:43:34 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Finished testing for search item
+15-12-2023 18:43:34 [main] INFO  com.opencart.customer.TestCases.SearchProductTest - Closed browsers
+15-12-2023 18:45:24 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Opening the Chrome browser
+15-12-2023 18:45:24 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Load http://localhost/opencart/upload/
+15-12-2023 18:45:24 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Starting testing for add to cart
+15-12-2023 18:45:26 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Closed browsers
+15-12-2023 18:48:29 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Opening the Chrome browser
+15-12-2023 18:48:29 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Load http://localhost/opencart/upload/
+15-12-2023 18:48:29 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Starting testing for add to cart
+15-12-2023 18:48:31 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Closed browsers
+15-12-2023 18:53:27 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Opening the Chrome browser
+15-12-2023 18:53:28 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Load http://localhost/opencart/upload/
+15-12-2023 18:53:28 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Starting testing for add to cart
+15-12-2023 18:53:29 [main] ERROR com.opencart.customer.TestCases.AddToCartTest - Testing has an exception error
+15-12-2023 18:53:29 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Closed browsers
+15-12-2023 18:54:09 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Opening the Chrome browser
+15-12-2023 18:54:10 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Load http://localhost/opencart/upload/
+15-12-2023 18:54:10 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Starting testing for add to cart
+15-12-2023 18:54:11 [main] ERROR com.opencart.customer.TestCases.AddToCartTest - Testing has an exception error
+15-12-2023 18:54:11 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Closed browsers
+15-12-2023 18:55:17 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Opening the Chrome browser
+15-12-2023 18:55:18 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Load http://localhost/opencart/upload/
+15-12-2023 18:55:18 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Starting testing for add to cart
+15-12-2023 18:55:19 [main] ERROR com.opencart.customer.TestCases.AddToCartTest - Testing has an exception error
+15-12-2023 18:55:19 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Closed browsers
+15-12-2023 18:56:28 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Opening the Chrome browser
+15-12-2023 18:56:28 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Load http://localhost/opencart/upload/
+15-12-2023 18:56:28 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Starting testing for add to cart
+15-12-2023 18:56:30 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Finished testing for add to cart
+15-12-2023 18:56:30 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Closed browsers
+15-12-2023 18:58:09 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Opening the Chrome browser
+15-12-2023 18:58:10 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Load http://localhost/opencart/upload/
+15-12-2023 18:58:10 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Starting testing for add to cart
+15-12-2023 18:58:11 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Finished testing for add to cart
+15-12-2023 18:58:12 [main] INFO  com.opencart.customer.TestCases.AddToCartTest - Closed browsers
