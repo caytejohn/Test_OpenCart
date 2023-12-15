@@ -27,7 +27,7 @@ public class SearchProductTest extends BaseClass {
             Assert.assertTrue(search.isProductExist(resBundle.getString("item")));
         }
         catch (Exception e) {
-
+            logger.error("Testing has an exception error");
             Assert.fail();
         }
         logger.info("Finished testing for search item");
