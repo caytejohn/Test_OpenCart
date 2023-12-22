@@ -2,14 +2,13 @@ package com.opencart.customer.TestCases;
 
 import com.opencart.customer.PageObjects.*;
 import com.opencart.customer.TestBase.BaseClass;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 public class EndToEndTest extends BaseClass {
 
     @Test
-    public void test_end_to_end() throws InterruptedException {
+    public void test_end_to_end() {
         logger.info("Starting end to end testing");
 
         SoftAssert softAssert = new SoftAssert();
