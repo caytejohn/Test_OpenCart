@@ -1,0 +1,44 @@
+22-12-2023 16:04:08 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked on register link
+22-12-2023 16:04:08 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided first name
+22-12-2023 16:04:08 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided last name
+22-12-2023 16:04:08 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided email address
+22-12-2023 16:04:08 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided telephone number
+22-12-2023 16:04:08 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided password
+22-12-2023 16:04:08 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided matched password
+22-12-2023 16:04:08 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User checked privacy policy
+22-12-2023 16:04:11 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked continue button
+22-12-2023 16:04:11 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - Validating if account has been successfully created
+22-12-2023 16:04:11 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User click logout button
+22-12-2023 16:04:11 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked on my account link
+22-12-2023 16:04:11 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked on register link
+22-12-2023 16:04:11 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User input email address
+22-12-2023 16:04:11 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User input password
+22-12-2023 16:04:11 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked on login button
+22-12-2023 16:04:11 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - Validating if logged in successfully
+22-12-2023 16:04:12 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - Input item name on search box
+22-12-2023 16:04:12 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - Clicked search button
+22-12-2023 16:04:12 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User select the product
+22-12-2023 16:04:12 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User set quantity for the product
+22-12-2023 16:04:12 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User click add to cart button
+22-12-2023 16:04:12 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - Validating if the item added successfully
+22-12-2023 16:04:13 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked cart button
+22-12-2023 16:04:13 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked view cart button
+22-12-2023 16:04:13 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - Validating if the total price is equals to expected price
+22-12-2023 16:04:14 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked checkout button
+22-12-2023 16:04:14 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided first name
+22-12-2023 16:04:14 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided last name
+22-12-2023 16:04:14 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided address
+22-12-2023 16:04:14 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided city
+22-12-2023 16:04:14 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provided postcode
+22-12-2023 16:04:14 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User select country
+22-12-2023 16:04:15 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User select region
+22-12-2023 16:04:15 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked continue button
+22-12-2023 16:04:15 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked continue button
+22-12-2023 16:04:16 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked continue button
+22-12-2023 16:04:16 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User check the terms and conditions
+22-12-2023 16:04:16 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User provide comment
+22-12-2023 16:04:16 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - User clicked continue button
+22-12-2023 16:04:16 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - Validating if the total price before confirming order is equals to expected price
+22-12-2023 16:04:17 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - Validating if the order is successfully placed
+22-12-2023 16:04:22 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - Finished end to end testing
+22-12-2023 16:04:22 [main] INFO  com.opencart.customer.TestCases.EndToEndTest - Closed browsers
