@@ -39,7 +39,7 @@ public class BaseClass extends CommonMethods {
         driver.manage().deleteAllCookies();
         driver.manage().window().maximize();
         driver.get(resBundle.getString("url"));
-        logger.info("Load " + driver.getCurrentUrl());
+        logger.info("Load " + resBundle.getString("url"));
     }
 
     @AfterClass(groups = {"main", "sanity", "regression"})
